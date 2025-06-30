@@ -79,7 +79,7 @@ namespace Custom {
 		const ImVec2 pos = ImGui::GetWindowPos( );
 		ImDrawList * draw = ImGui::GetWindowDrawList( );
 
-		//Brackground
+                //Background
 		draw->AddRectFilled( ImVec2( pos.x + 0, pos.y + 0 ), ImVec2( pos.x + g_MenuInfo.MenuSize.x, pos.y + g_MenuInfo.MenuSize.y ), ImGui::GetColorU32( g_Col.BackgroundCol ), 6.f );
 
 		//TitleBar
